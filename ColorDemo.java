@@ -1,6 +1,6 @@
-// In Java, colors are represented by Color objects. 
-// The Java class library features a class named Color, 
-// which is part of a package named java.awt. When you 
+// In Java, colors are represented by Color objects.
+// The Java class library features a class named Color,
+// which is part of a package named java.awt. When you
 // write a program that uses Color objects, you must first
 // import the java.awt.Color class into your code. That's
 // what the next statement does.
@@ -11,22 +11,22 @@ import java.awt.Color;
  */
 public class ColorDemo {
 	
-	public static void main (String[] args) {	
+	public static void main (String[] args) {
 
-	    // Constructs a few color objects:		
+	    // Constructs a few color objects:
 		Color black  = new Color(0, 0, 0);
 		Color white  = new Color(255, 255, 255);
 		Color red    = new Color(255, 0, 0);
 		Color yellow = new Color(255, 255, 0);
 
         // To access the RGB values of a Color object,
-        // we use three "get" nethods. For example: 
-        System.out.println("RGB values of yellow:");     
+        // we use three "get" nethods. For example:
+        System.out.println("RGB values of yellow:");
 		System.out.println("R = " + yellow.getRed());   // prints 255
 		System.out.println("G = " + yellow.getGreen()); // prints 255
 		System.out.println("B = " + yellow.getBlue());  // prints   0
 
-        // Tests the print method: 
+        // Tests the print method:
 		System.out.print("Red = "); print(red);
 		System.out.println();
 
@@ -41,7 +41,7 @@ public class ColorDemo {
 		Color[] bwbw1 = { new Color(0,0,0), new Color(255,255,255), new Color(255,255,255), new Color(0,0,0) };
 
         // Illustrates how a 4 by 4 array of Color objects can be constructed:
-		Color[][] miniChessBoard = { 
+		Color[][] miniChessBoard = {
 			                         { black, white, black, white } ,
 			                         { white, black, white, black } ,
 			                         { black, white, black, white } ,
